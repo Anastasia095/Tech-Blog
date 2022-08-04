@@ -1,6 +1,6 @@
 //require router, Post (from yout models), withAuth
-
 const { Router } = require("express");
+const { Post } = require('../../models');
 
 //get route that uses with Auth - uses findAll on posts
 //render all-posts-admin with the dashboard layout

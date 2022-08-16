@@ -8,7 +8,7 @@ This program is a CMS-style blog, where developers can publish their blog posts
 
 ## Links
 https://github.com/Anastasia095/E-commerce-Back-End  
-Video: https://drive.google.com/file/d/1_QUNE4pnJ4JVO4iK1E6m5JMpeJNMbemo/view
+
   ## Table of Content
   - [Installation](#installation)
   - [Usage](#usage)

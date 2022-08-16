@@ -4,26 +4,13 @@ const withAuth = require('../utils/auth');
 
 // Get all posts and JOIN with user data
 router.get('/', async (req, res) => {
-  console.log('++++++++++++++++++++++++++++++++++')
   try {
     const postData = await Post.findAll({
-      // attributes: [
-      //   'id',
-      //   'title',
-      //   'postContent',
-      //   'date_created'
-      // ],
       include: [
         {
           model: User,
         }
       ],
-      // include: [
-      //   {
-      //     model: Comment,
-      //     attributes: ['id', 'user_id', 'date_created'],
-      //   },
-      // ]
     });
 
     // Serialize data so the template can read it

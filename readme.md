@@ -7,8 +7,8 @@ This program is a CMS-style blog, where developers can publish their blog posts
 ![screenshot](https://sun9-44.userapi.com/impg/1CEJw1TFcB-eHZyP2XWdFYjSWfGf_qx8JaO71g/tjAP1mBZxZk.jpg?size=1905x808&quality=95&sign=10a9b5f1e4531eef733dd197f2d8ffd3&type=album)
 
 ## Links
-https://github.com/Anastasia095/E-commerce-Back-End  
-
+https://fast-oasis-18263.herokuapp.com/
+https://github.com/Anastasia095/Tech-Blog
   ## Table of Content
   - [Installation](#installation)
   - [Usage](#usage)
@@ -16,7 +16,7 @@ https://github.com/Anastasia095/E-commerce-Back-End
   - [License](#license)
 
   ## Installation
-To use this app clone this repository to your machine, install Node.JS and git (see instructions below). After you sucsessfully installed node.js, navigater to the root directyory of this program and run "npm i"(this command will install all required node modules and dependancies). Use the schema.sql file in the db folder to create your database using MySQL shell commands. Use environment variables to store sensitive data, like your MySQL username, password, and database name. Run npm run seed to seed test data to your database. To start the program run "npm start".
+To use this app clone this repository to your machine, install Node.JS and git (see instructions below). After you sucsessfully installed node.js, navigater to the root directyory of this program and run "npm i"(this command will install all required node modules and dependancies). Use environment variables to store sensitive data, like your MySQL username, password, and database name. Run npm run seed to seed test data to your database. To start the program run "npm start".
   ## Usage
  This program is an E-commerce-Back-End application containing back end for an e-commerce site.
 
